@@ -1,0 +1,4 @@
+- 👋 Hi, I’m @daseul95
+- 👀 I’m interested in k-pop and k-band
+- 🌱 I’m currently learning web programming
+- ⚡ Fun fact: trying to be happy

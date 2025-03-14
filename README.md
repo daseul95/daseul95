@@ -3,5 +3,3 @@
 - 🌱 I’m currently learning web programming
 - ⚡ Fun fact: trying to be happy
 
-
-![mazandi profile](http://mazandi.herokuapp.com/api?handle={Ruby 2}&theme=cold)

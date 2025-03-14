@@ -3,5 +3,7 @@
 - 🌱 I’m currently learning web programming
 - ⚡ Fun fact: trying to be happy
 
+pip install -r requirements.txt
+uvicorn main:app --reload
 
 ![mazandi profile](http://mazandi.herokuapp.com/api?handle={handle}&theme=cold)

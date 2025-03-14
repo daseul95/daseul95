@@ -4,5 +4,4 @@
 - ⚡ Fun fact: trying to be happy
 
 
-![mazandi profile](http://mazandi.herokuapp.com/api?handle={Ruby2}&theme=cold)
-<img src="http://mazandi.herokuapp.com/api?handle={Ruby2}&theme=cold"/>
+![mazandi profile](http://mazandi.herokuapp.com/api?handle={pichulia}&theme=cold)

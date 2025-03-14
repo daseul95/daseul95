@@ -1,0 +1,42 @@
+import GitHubCalendar from 'react-github-calendar';
+
+<GitHubCalendar username="daseul95" />
+
+import styled from "@emotion/styled";
+import { useEffect, useState } from "react";
+import GitHubCalendar from "react-github-calendar";
+import ReactTooltip from "react-tooltip";
+
+export default function GithubChart(props: {daseul95: string }) {
+  const [isMounted, setIsMounted] = useState(false);
+  useEffect(() => {
+    setIsMounted(true);
+  }, []);
+
+  return (
+    <>
+      <Wrapper>
+       {isMounted && (
+          <GitHubCalendar
+            username={props.githubId}
+            labels={{
+              totalCount: "Learn how we count contributions",
+            }}
+            showWeekdayLabels
+          >
+            <ReactTooltip html />
+          </GitHubCalendar>
+        )}
+      </Wrapper>
+    </>
+  );
+}
+
+const Wrapper = styled.div`
+  background-color: white;
+  padding: 20px;
+`;
+
+const Chart = styled.img`
+  width: 855px;
+`;
